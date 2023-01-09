@@ -1,0 +1,68 @@
+*{margin:auto;
+padding:auto;}
+
+#baslik{
+	
+	text-align:center;
+}
+
+body {
+ 	background:#211A44;
+    background-color:#110f23;
+}
+#ymenu{
+	width:auto;
+	height:40px;
+	border:1px solid #666;
+	background-color:#110f23;
+	padding:5px;
+}
+	
+#ymenu li{
+  display: block;
+  width:auto;
+  color:white;
+  text-decoration:none;}
+	
+#ymenu a {
+	text-decoration:none; 
+	border:1px solid #FFFFFF;
+	background-color:#333399;
+	width:140px;
+	height:30px;
+	padding:5px;
+	display:block;
+	line-height:30px;
+	color:white;
+	font-size:16pt;
+	font-weight:bold;
+}
+	
+#ymenu a:hover{
+    background-color: #d35400;
+    color:white;
+	background-color:#9f9fdf;
+}
+	
+#ymenu ul>li
+{
+	float: left;
+}
+	
+#ymenu li ul{
+	display:none;
+	width:140px;
+	position:absolute;
+	opacity:0.9;
+	transition:.5px;
+}
+	
+#ymenu li:hover ul{
+	
+	display:block;
+}
+#logo{
+	margin:15px;
+	padding:15px;
+	float:left;
+}
